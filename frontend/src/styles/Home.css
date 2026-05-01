@@ -1,0 +1,346 @@
+.home-container {
+  padding: 50px 40px;
+  background: #0b1220;
+  min-height: 100vh;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-header h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  max-width: 800px;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-icon {
+  font-size: 36px;
+  color: #38bdf8;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #e0f2fe;
+}
+
+.hero-subtitle {
+  margin: 14px 0 24px;
+  color: #94a3b8;
+  font-size: 16px;
+  max-width: 650px;
+}
+/* Button */
+.tool-btn {
+  margin-bottom: 40px;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: white;
+  /* transition: background 0.3s ease; */
+}
+
+
+
+
+.tool-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.6);
+}
+
+.btn-icon {
+  font-size: 18px;
+}
+
+/* ---------- Info Section ---------- */
+.info-section {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+  align-items: flex-start;
+}
+
+/* Image box */
+.info-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right content */
+.info-content {
+  max-width: 420px;
+}
+
+/* Social icons */
+.socials {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+
+.socials a {
+  font-size: 32px;        /* 🔥 bigger icons */
+  color: #7dd3fc;
+  transition: all 0.25s ease;
+}
+
+.socials a:hover {
+  color: #e0f2fe;
+  transform: translateY(-3px);
+  text-shadow: 0 0 12px rgba(125, 211, 252, 0.7);
+}
+
+.home-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+/* Info text */
+.info-text {
+  margin-top: 28px;
+  max-width: 720px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #cbd5f5;
+}
+
+.media-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.home-media {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.home-logo {
+  font-size: 42px;
+  color: #209ecf;
+}
+
+.social-icons svg {
+  font-size: 36px;
+  cursor: pointer;
+  color: #94a3b8;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #22c55e;
+  transform: scale(1.15);
+}
+
+/* Description */
+.home-description {
+  max-width: 900px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cbd5f5;
+}
+
+/* Social section title */
+.social-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+/* Icon + text row */
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Text next to icon */
+.social-item span {
+  color: inherit;
+  font-weight: 500;
+}
+
+/* ---------- Shared Section ---------- */
+.home-section {
+  margin-top: 80px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #e0f2fe;
+  margin-bottom: 30px;
+}
+
+/* ---------- Grid ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  position: relative;
+  z-index: 3;
+}
+
+/* ---------- Info Cards ---------- */
+.info-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 22px;
+
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.info-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #93c5fd;
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* ---------- Tool Cards ---------- */
+.tool-card {
+  background: linear-gradient(180deg, #020617, #020617);
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 22px;
+
+  transition: all 0.25s ease;
+
+  /* 🔑 REQUIRED */
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 2;
+}
+
+
+.tool-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+.tool-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e0f2fe;
+  margin-bottom: 8px;
+}
+
+.tool-card p {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 12px;
+
+}
+
+.tool-action {
+  font-size: 14px;
+  font-weight: 500;
+  color: #38bdf8;
+}
+
+.tool-card:active {
+  transform: scale(0.98);
+}
+
+.overlay-btn {
+  position: absolute;
+  top: 60%; /* a bit down from center */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #fff;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.6);
+  padding: 18px 40px; /* bigger button */
+  font-size: 1.2rem; /* bigger text */
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: not-allowed;
+  z-index: 10;
+  
+  /* Smooth hover transition */
+  transition: all 0.3s ease;
+}
+
+/* Glow effect on hover */
+.overlay-btn:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
+  transform: translate(-50%, -50%) scale(1.05); /* slight grow */
+}
+.home-section {
+  margin-top: 60px;
+  text-align: center;
+}
+.analytics-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+
+  background: linear-gradient(145deg,#0f172a,#1e293b);
+  box-shadow: 0 0 25px rgba(99,102,241,0.4);
+
+  transition: transform 0.3s ease;
+}
+
+.analytics-container:hover {
+  transform: scale(1.02);
+}

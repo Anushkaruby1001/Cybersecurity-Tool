@@ -1,0 +1,119 @@
+/* ================= FEEDBACK SECTION WRAPPER ================= */
+
+.feedback-section {
+  margin-top: 40px;
+  padding: 28px;
+  background: #0f172a;
+  border-radius: 16px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 12px 30px rgba(0, 0, 0, 0.4);
+  color: #e5e7eb;
+}
+
+/* ================= TITLE ================= */
+
+.feedback-section h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #93c5fd;
+  letter-spacing: 0.3px;
+}
+
+/* ================= INPUT FIELDS ================= */
+
+.feedback-section select,
+.feedback-section textarea {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 13px 14px;
+  background: #020617;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  color: #e5e7eb;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Focus state */
+.feedback-section select:focus,
+.feedback-section textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+/* Textarea specific */
+.feedback-section textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+/* Dropdown options */
+.feedback-section select option {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* ================= SUBMIT BUTTON ================= */
+
+.feedback-section button {
+  margin-top: 5px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border: none;
+  color: #ffffff;
+  padding: 11px 22px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.feedback-section button:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 0 18px rgba(56, 189, 248, 0.6);
+}
+
+.feedback-section button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ================= FEEDBACK LIST ================= */
+
+.feedback-list {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* ================= FEEDBACK CARD ================= */
+
+.feedback-card {
+  background: #020617;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.feedback-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #93c5fd;
+}
+
+.feedback-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 10px;
+}
+
+.feedback-card span {
+  font-size: 13px;
+  color: #facc15;
+}

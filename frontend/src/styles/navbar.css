@@ -1,0 +1,86 @@
+/* ---------- Navbar Wrapper ---------- */
+.navbar-wrapper {
+  background-color: #0b1220;
+  padding: 12px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ---------- Navbar Ribbon ---------- */
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 24px;
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+}
+
+/* ---------- Left: Site Name ---------- */
+.nav-left {
+  flex: 1;
+}
+
+.site-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #e0f2fe;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.site-name:hover {
+  opacity: 0.9;
+  text-shadow: 0 0 8px rgba(224, 242, 254, 0.6);
+}
+
+/* ---------- Center: Navigation Items ---------- */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: nowrap;       
+  white-space: nowrap; 
+}
+
+/* ---------- Nav Items ---------- */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  white-space: nowrap;      
+  line-height: 1;   
+
+  color: #7dd3fc;
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.nav-item:hover {
+  color: #e0f2fe;
+  transform: translateY(-1px);
+  text-shadow: 0 0 6px rgba(125, 211, 252, 0.6);
+}
+
+/* ---------- Active Page ---------- */
+.nav-item.active {
+  color: #38bdf8;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+
+/* ---------- Icons ---------- */
+.nav-icon {
+  font-size: 17px;
+  color: #7dd3fc;
+}
