@@ -272,10 +272,13 @@ npm run dev
 ![Home](./frontend/screenshots/home.png)
 
 ### Malware Tool
-![Malware Tool](./frontend/screenshots/malware.png)
+![Malware Tool](./frontend/screenshots/tool1.png)
 
 ### Email Analyzer
-![Email Analyzer](./frontend/screenshots/email.png)
+![Email Analyzer](./frontend/screenshots/tool2.png)
+
+### Website Safety Checker
+![Website Safety Checker](./frontend/screenshots/tool3.png)
  ---
 ## Author
 
