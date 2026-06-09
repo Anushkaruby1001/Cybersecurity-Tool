@@ -266,6 +266,17 @@ npm run dev
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home](./frontend/screenshots/home.png)
+
+### Malware Tool
+![Malware Tool](./frontend/screenshots/malware.png)
+
+### Email Analyzer
+![Email Analyzer](./frontend/screenshots/email.png)
+ ---
 ## Author
 
 Anushka Nagvekar
